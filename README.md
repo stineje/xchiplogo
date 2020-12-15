@@ -1,13 +1,12 @@
 # xchiplogo
 This is chiplogo a logo generator for VLSI chips.  Originally written by Alireza Moini and modified by yours truly to work on Linux systems.  To get this to work, you have to convert your files to PBM (or Portable Bit Map) format.  To do this, type the following:
-  
+<PRE>  
 convert -compress none file.jpg file.pbm
-  
+</PRE>  
 Then, to convert,  you can type:
 <PRE>  
 xchiplogo file.pbm file.mag
-<PRE>
-
+</PRE>
 USAGE :
 xchiplogo [-c cif_layer_name] [-m magic_layer_name] [-w width] [-s scale] [-t tech_name] [-e] [-v view_array] [-B  threshold_before] [-A threshold_after] input_file [output_file]
 
