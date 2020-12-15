@@ -4,9 +4,9 @@ This is chiplogo a logo generator for VLSI chips.  Originally written by Alireza
 convert -compress none file.jpg file.pbm
   
 Then, to convert,  you can type:
-  
+<PRE>  
 xchiplogo file.pbm file.mag
-  
+
 USAGE :
 xchiplogo [-c cif_layer_name] [-m magic_layer_name] [-w width] [-s scale] [-t tech_name] [-e] [-v view_array] [-B  threshold_before] [-A threshold_after] input_file [output_file]
 
@@ -21,7 +21,7 @@ The options are:
  threshold_before => the threshold value used in the smoothing before error                          correction (from 4 to 16)
  threshold_after  => the threshold value used in the smoothing after error                          correction (from 4 to 16)
  NOTE: The input file should be in the ascii bit map format
-
+</PRE>
 
  the defaults are as follows:
 
