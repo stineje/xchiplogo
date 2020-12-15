@@ -5,8 +5,7 @@ This is chiplogo a logo generator for VLSI chips.  Originally written by Alireza
 </PRE>  
 
 Then, to convert,  you can type:
-<PRE>  
-xchiplogo file.pbm file.mag
+<PRE>xchiplogo file.pbm file.mag
 </PRE>
 
 USAGE :
